@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example" duration-ms="17" started-at="2014-06-04T16:03:11Z" finished-at="2014-06-04T16:03:11Z">
+    <groups>
+      <group name="create">
+        <method signature="test.nestle.Suite.CreateAccount.testMe(java.lang.String)" name="testMe" class="test.nestle.Suite.CreateAccount"/>
+      </group>
+    </groups>
+    <test name="ObjectExitTest simple example" duration-ms="17" started-at="2014-06-04T16:03:11Z" finished-at="2014-06-04T16:03:11Z">
+      <class name="test.nestle.Suite.CreateAccount">
+        <test-method status="PASS" signature="testMe(java.lang.String)" name="testMe" duration-ms="7" started-at="2014-06-04T16:03:11Z" finished-at="2014-06-04T16:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

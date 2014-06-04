@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ 
+<suite name="Example" verbose="1">
+    <parameter name="param" value="first"/>
+    <parameter name="browser" value="firefox"/>
+    <test name="ObjectExitTest simple example">
+       
+        <classes>
+            <class name="test.nestle.Suite.CreateAccount"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="first"/>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+</suite>
