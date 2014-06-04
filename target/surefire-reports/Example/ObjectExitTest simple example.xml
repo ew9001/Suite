@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="nycpusagolube.local" name="test.nestle.Suite.CreateAccount" tests="1" failures="0" timestamp="4 Jun 2014 21:58:47 GMT" time="0.018" errors="0">
+<testsuite hostname="nycpusagolube.local" name="test.nestle.Suite.CreateAccount" tests="1" failures="0" timestamp="4 Jun 2014 22:20:01 GMT" time="0.017" errors="0">
   <testcase name="testMe" time="0.008" classname="test.nestle.Suite.CreateAccount"/>
 </testsuite>
