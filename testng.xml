@@ -3,6 +3,7 @@
 <suite name="Example" verbose="1">
     <parameter name="param" value="first"/>
     <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="ie9"/>
     <test name="ObjectExitTest simple example">
        
         <classes>
