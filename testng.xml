@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Example" verbose="1">
+<suite name="Create Account Suite" verbose="1">
   
     <parameter name="browser" value="firefox"/>
     <parameter name="browser" value="ie9"/>
-    <test name="Object">
+    <test name="Validation that account can be created">
        
         <classes>
             <class name="test.nestle.Suite.CreateAccount"/>
