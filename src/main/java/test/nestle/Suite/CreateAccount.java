@@ -10,6 +10,7 @@ public class CreateAccount {
     @Parameters({"browser"})
     public void testMe(String browser) {
         System.out.println("testMe.param: " + browser);
+        System.out.println("this is perfect");
     }
 	
  
