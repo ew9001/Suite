@@ -45,6 +45,26 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+            <plugin>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <configuration>
+    <source>1.6</source>
+    <target>jsr14</target>
+  </configuration>
+  <executions>
+    <execution>
+      <id>test-compile</id>
+      <phase>process-test-sources</phase>
+      <goals>
+        <goal>testCompile</goal>
+      </goals>
+      <configuration>
+        <source>1.6</source>
+        <target>1.6</target>
+      </configuration>
+    </execution>
+  </executions>
+</plugin>
         </plugins>
     </build>
 </project>
