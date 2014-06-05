@@ -8,13 +8,12 @@
   <packaging>jar</packaging>
 
   <name>Suite</name>
-  <properties>
-        <testng.version>6.3.1</testng.version>
-</properties>
+
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <testng.version>6.3.1</testng.version>
   </properties>
 
   <dependencies>
