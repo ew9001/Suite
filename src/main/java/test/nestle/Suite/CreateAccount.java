@@ -8,8 +8,8 @@ public class CreateAccount {
 
 	@Test(groups = {"create"})
     @Parameters({"browser"})
-    public void testMe(String param) {
-        System.out.println("testMe.param: " + param);
+    public void testMe(String browser) {
+        System.out.println("testMe.param: " + browser);
     }
 	
  
